@@ -15,7 +15,7 @@ drop SEQUENCE if exists xxl_job_user_id_seq;
 drop SEQUENCE if exists xxl_job_group_id_seq;
 
 CREATE SEQUENCE xxl_job_info_id_seq
-    START WITH 1
+    START WITH 2
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
@@ -45,13 +45,13 @@ CREATE SEQUENCE xxl_job_registry_id_seq
     NO MAXVALUE
     CACHE 1;
 CREATE SEQUENCE xxl_job_user_id_seq
-    START WITH 1
+    START WITH 2
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
     CACHE 1;
 CREATE SEQUENCE xxl_job_group_id_seq
-    START WITH 1
+    START WITH 2
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
