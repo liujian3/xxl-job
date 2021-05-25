@@ -180,8 +180,8 @@ public class SampleXxlJob {
             connection.setDoOutput(isPostMethod);
             connection.setDoInput(true);
             connection.setUseCaches(false);
-            connection.setReadTimeout(5 * 1000);
-            connection.setConnectTimeout(3 * 1000);
+            connection.setReadTimeout(60 * 1000);
+            connection.setConnectTimeout(60 * 1000);
             connection.setRequestProperty("connection", "Keep-Alive");
             connection.setRequestProperty("Content-Type", "application/json;charset=UTF-8");
             connection.setRequestProperty("Accept-Charset", "application/json;charset=UTF-8");
